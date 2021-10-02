@@ -29,8 +29,7 @@ public class Contador
     /**
      *  
      * Incrementa el valor en 1
-     * @param   
-     * @return    
+     * @param       
      */
     public void incrementar()    {
          valor ++;
@@ -39,10 +38,28 @@ public class Contador
     /**
      *  
      * Decrementa el valor en 1
-     * @param   
-     * @return    
+     * @param    
      */
     public void decrementar()    {
          valor --;
+    }
+
+    /**
+     *  
+     * Resetea el valor a 0
+     * @param  
+     */
+    public void reset()    {
+         valor = 0;
+    }
+
+    /**
+     *  
+     * Devuelve por patalla el valor del contador
+     * @param 
+     * @print
+     */
+    public void printContador()    {
+         System.out.println("Valor: " + valor);  
     }
 }
